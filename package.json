@@ -1,0 +1,14 @@
+{
+  "name": "random-fork-bot",
+  "version": "1.0.0",
+  "description": "Auto fork GitHub repos every 5 minutes",
+  "main": "random-fork-worker.js",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
+
