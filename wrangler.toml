@@ -5,3 +5,5 @@ main = "random-fork-worker.js"
 [triggers]
 crons = ["*/5 * * * *"]
 
+[observability.logs]
+enabled = true
