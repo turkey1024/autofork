@@ -60,7 +60,7 @@ export default {
             console.log('🔍 搜索随机仓库, 页码:', randomPage);
             
             const searchResponse = await fetch(
-                `https://api.github.com/search/repositories?q=stars:>100&sort=updated&page=${randomPage}&per_page=1`,
+                `https://api.github.com/search/repositories?q=stars:>0&sort=updated&page=${randomPage}&per_page=1`,
                 {
                     headers: {
                         'Authorization': `token ${GITHUB_TOKEN}`,
