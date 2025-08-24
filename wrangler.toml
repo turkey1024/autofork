@@ -3,7 +3,7 @@ compatibility_date = "2024-01-01"
 main = "random-fork-worker.js"
 
 [triggers]
-crons = ["*/5 * * * *"]
+crons = ["*/10 * * * *"]
 
 [observability.logs]
 enabled = true
