@@ -1,5 +1,5 @@
 // 在这里直接设置你的 GitHub Token
-const GITHUB_TOKEN = "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";
+const GITHUB_TOKEN = "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";
 
 export default {
     async scheduled(controller, env, ctx) {
